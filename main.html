@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .header{
+        background-color: rgb(231, 231, 236);
+        margin-bottom: 80px;
+      }
+      body{
+        font-family: sans-serif;
+      }
+      .top{
+        display: flex;
+        }
+        .top-left{
+          margin-left: 100px;
+          margin-top: 30px;
+        }
+        .top-centre{
+          display: flex;
+          margin: 20px auto;
+          text-align: end;
+        }
+        .one{
+          margin: 15px;
+        }
+        button{
+          background-color: forestgreen;
+          border: 1px solid forestgreen;
+          color: white;
+          border-radius: 5px;
+          margin: 0px 15px;
+          padding:10px 15px;
+        }
+        .a{
+          display: flex;
+        }
+        .a1{
+           width: 60%;
+           text-align: left;
+           margin: 100px 0px 50px 100px;
+           padding: 10px;
+           font-size: 25px;  
+        }
+        .a2{
+            margin: 13px;
+            color: rgb(60, 59, 59);
+         }
+        .a3{
+           color: forestgreen;
+           margin:13px;
+        }
+        .a4{
+          width: 40%;
+          padding-top:70px;
+        }
+        p{
+          margin-top: 20px;
+          margin-bottom: 15px;
+          margin-left: 13px;
+          font-size: large;
+        }
+        .a4{
+            text-align: center;
+            margin: 20px auto;}
+        .b{
+          text-align: center;
+          margin: 10px;
+        }
+        .b2{
+         font-size: 40px;
+         color: rgb(89, 85, 85);
+        }
+        .m{
+          height: 7px;
+          margin: 10px auto;
+          margin-left: 750px;
+        }
+        .b4{
+           display: flex;
+           margin-left: 100px;
+           margin-top: 10px;   
+        }
+        .b5{
+          margin: 20px;
+          padding: 30px 50px;
+        }
+        .c2{
+          text-align: center;
+         font-size: 40px;
+         color: rgb(82, 80, 80);
+        }
+        .c3{
+          text-align: center;
+        }
+        .d{
+          display: flex;
+          margin-left:150px;
+          margin-right: 150px;
+        }
+        .d1{
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 40px;
+        }
+        .d2{
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 40px;
+        }
+        .d3{
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 40px;
+        }
+        .e{
+          display: flex;
+          margin-top: 0%;
+        }
+        .e1{
+          width: 45%;
+          margin-left: 150px;
+        }
+        .e2{
+          width: 75%;
+          margin-left: 0%;
+          padding-left: 0%;
+          padding-top: 15px;
+        }
+        .e3{
+          font-size: 40px;
+          color: rgb(101, 101, 101);
+        }
+        .f{
+          background-color: aliceblue;
+          padding: 30px;
+          display: flex;
+        }
+        .f1{
+          margin-left: 100px;
+          width: 40%;
+        }
+        .f2{
+          color: rgb(27, 25, 25);
+          margin: 13px;
+          font-size: 40px;         
+        }
+        .f3{
+          color: forestgreen;
+          margin: 13px;
+          font-size: 40px;
+        }
+        .f4{
+          display: flex;
+          flex-wrap: wrap;
+          width: 50%; 
+        }
+        .f5{
+          display: flex;
+          margin-top: 0%;
+          text-align: center;
+          padding: 0px auto;
+          margin-left: 60px;
+          margin-right: 60px;
+          margin-bottom: 15px;
+        }
+        .f7{          
+         padding:4px;
+        }
+        .f8{
+          padding-top: 5px;
+          padding-bottom: 0px;
+          color: rgb(69, 69, 69);
+          margin: 0px 10px 0px 10px;          
+        }
+        .f9{
+            margin: 5px 10px 10px 10px;
+           text-align: left;
+        }
+        .f10{
+          padding-top: 5px;
+          padding-bottom: 0px;
+          color: rgb(69, 69, 69);
+          margin: 0px 10px 0px 0px;
+          padding-left: 0%;          
+        }
+        .fl{
+          padding-top: 10px;
+        }
+        .g{
+          display: flex;
+          margin-top: 0%;
+        }
+        .g1{
+          width: 45%;
+          margin-left: 150px;
+        }
+        .g2{
+          width: 75%;
+          margin-left: 0%;
+          padding-left: 0%;
+          padding-top: 15px;
+        }
+        .g3{
+          font-size: 40px;
+          color: rgb(101, 101, 101);
+        }
+        .h{
+          display: flex;
+          background-color: aliceblue;
+        }
+        .h1{
+          width: 40%; 
+        }
+        .h2{
+          width: 65%;
+          padding-top: 15px;
+          padding-left: 20px;
+          padding-right: 144px;
+          color: rgb(97, 96, 96);
+          line-height: 1.6;
+        }
+        .h3{
+          color: forestgreen;
+          padding-left: 15px;
+        }
+        .h5{
+          display: flex;
+        }
+        .h6{        
+          padding: 15px 20px;
+          margin-left: 0%;       
+        }
+        .i1{
+          text-align: center;
+        }
+        .i2{
+          color:rgb(60, 56, 56);
+        }
+        .i3{
+          color: rgb(97, 95, 95);
+          line-height: 1.6;
+          padding-left: 350px;
+          padding-right: 350px;
+        }
+        .i4{
+          display: flex;
+          padding-top: 130px;
+          padding-bottom: 50px;
+          margin-left:150px;
+          margin-right: auto;
+        }
+        .i5{
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: ghostwhite;
+            width: 300px;
+        }
+        .j{
+          background-color: aliceblue;
+          text-align: center;
+          padding: 40px 40px 0px 40px; 
+        } 
+      
+        .k{
+          background-color: rgb(63, 56, 56);
+          display: flex;
+        }
+        .k2{
+          display: flex;
+          padding-top: 40px;
+          padding-left: 180px;
+          padding-bottom: 40px;
+          padding-right: 200px;
+        }
+        .k3{
+          color: white;
+          padding-top: 30px;
+          padding-left: 120px;
+        }
+        .k4{
+          color: white;
+          padding-top: 30px;
+          padding-left: 120px;
+        }
+        .k5{
+          color: white;
+          padding-top: 30px;
+          padding-left: 100px;
+        }
+        .k8{
+          color: white;
+          padding-left: 180px;
+        }
+        .k9{
+          display: flex;
+          padding-left: 182px;
+          padding-bottom: 100px;
+          padding-top: 20px;
+        }
+         .k10{
+          margin: 5px;
+         }
+         .k12{
+          padding: 6px;
+        }
+        .k14{
+          padding: 6px;
+        }
+        .k17{
+          background-color: darkgray;
+         padding-left: 6px;
+         padding-right: 8px;
+          color: rgb(42, 41, 41);
+          border-radius: 7px;
+        }
+ </style>
+</head>
+<body>
+  <div class="header">
+    <div class="top">
+      <div class="top-left">
+        <img src="Logo.png" alt="im">
+      </div>
+      <div class="top-centre">
+        <div class="one">Home</div>
+        <div class="one">Feature</div>
+        <div class="one">community</div>
+        <div class="one">Blog</div>
+        <div class="one">Pricing</div>
+        <div class="one"></div>
+        <img src="Button.png" alt="im">
+      </div>
+    </div>
+    </div>
+    <div class="a">
+          <div class="a1">
+            <h1 class="a2">Lessons and insights</h1>
+            <h1 class="a3">from 8 years</h1>
+            <p style="color: darkgray;">Where to grow your business as a photographer:site or socaial media?</p>
+            <button class="bot"> Register</button>
+          </div>
+          <div class="a4">
+            <img src="Illustration.png" alt="img" height="300" width="250">
+            </div>  
+    </div>
+    <div class="a4">
+        <img src="Dot.png" alt="im">
+    </div>
+
+    <div class="b">
+        <div class="b1">
+          <h1 class="b2">Our clients</h1>
+          <p class="b3">We have been working with some Fortune 500+ clients</p>
+        </div>
+        <div class="b4">
+          <div class="b5"><img src="l1.png" alt="" height="40px" width="40px"></div>
+          <div class="b5"><img src="Logo (1).png" alt=""  height="50px" width="50px"></div>
+          <div class="b5"><img src="Logo (2).png" alt=""  height="50px" width="50px"></div>
+          <div class="b5"><img src="Logo (3).png" alt=""  height="50px" width="50px"></div>
+          <div class="b5"><img src="Logo (4).png" alt=""  height="50px" width="50px"></div>
+          <div class="b5"><img src="Logo (5).png" alt=""  height="50px" width="50px"></div>
+          <div class="b5"><img src="Logo (6).png" alt="" height="50px" width="50px"></div>
+        </div>
+        </div>
+        <div class="c">
+            <div class="c1">
+                <h1 class="c2">Manage your entire community <br>in a system</h1>
+                <p class="c3">Who is Nextcent Suitable for ?</p>
+            </div>
+        </div>
+<div class="d">
+   <div class="d1">
+        <img src="Icon.png" height="60" width="60">
+        
+        <h1 style="color: rgb(69, 69, 69);">Membership<br>Organisations</h1>
+        <p style="color: rgb(69, 69, 69);">Our membership management<br>software provides full automation of membership renewals and payments</p>         
+      </div>
+    <div class="d2">           
+            <img src="Icon (1).png" height="60" width="60">
+             <h1 style="color: rgb(69, 69, 69);">National<br>Associations</h1>
+             <p  style="color: rgb(69, 69, 69);">Our membership management<br>software provides full automation of membership renewals and payments</p>       
+    </div>
+      <div class="d3">           
+             <img src="Icon (2).png" height="60" width="60">
+             <h1  style="color: rgb(69, 69, 69);">Clubs and<br>groups</h1>
+            <p style="color: rgb(69, 69, 69);">Our membership management<br>software provides full automation of membership renewals and payments</p>      
+        </div>
+     </div>
+</div>
+<div class="e">
+    <div class="e1">
+      <img src="Frame 35.png" height="450px">
+    </div>
+    <div class="e2">
+      <h1 class="e3">The unseen of spending three<br>years at pixelgrade</h1>
+      <p style="color: rgb(59, 58, 58);line-height: 1.6;">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Distinctio cupiditate perspiciatis ipsam repudiandae natus<br>
+         at, quod consequatur dicta quos placeat asperiores incidunt <br>animi fugiat vitae esse. Provident ipsum est quo.</p>   
+     <img src="b1.png" alt="im" height="40px" width="100px">
+    </div>
+  </div>
+  <div class="f">
+    <div class="f1">
+     <h1 class="f2">Helping a local</h1>
+     <h1 class="f3">business reinvent itself</h1>
+     <p style="color: rgb(69, 69, 69);">We reached here with our hardwork and dedication</p>
+    </div>
+    <div class="f4">
+      <div class="f5">
+        <div class="f6">
+          <img src="mem.png" height="50px" width="50px">
+        </div>
+        <div class="f7">
+          <h2 class="f8">2,215,315</h2>
+          <p class="f9">Members</p>
+        </div>
+      </div>
+      <div class="f5">
+        <div class="f6">
+          <img src="clu.png" height="65px" width="65px">
+        </div>
+        <div class="f7">
+          <h2 class="f8">46,328</h2>
+          <p class="f9">Clubs</p>
+        </div>
+      </div>
+      <div class="f5">
+        <div class="f6">
+          <img src="evt.png" height="45px" width="45px">
+        </div>
+        <div class="f7">
+          <h2 class="f10">828,867</h2>
+          <p class="f9">Event bookings</p>
+        </div>
+      </div>
+      <div class="f5">
+        <div class="fl">
+          <img src="pay.png" height="45px" width="40px">
+        </div>
+        <div class="f7">
+          <h2 class="f8">1,926,436</h2>
+          <p class="f9">Payments</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g">
+  <div class="g1">
+    <img src="Frame 35.png" height="450px">
+  </div>
+  <div class="g2">
+    <h1 class="g3">How do design your site footer like <br>we did</h1>
+    <p style="color: rgb(123, 120, 120);line-height: 1.6;">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Distinctio cupiditate perspiciatis ipsam repudiandae natus<br>  at, quod consequatur dicta quos placeat asperiores incidunt <br>animi fugiat vitae esse. Provident ipsum est quo.</p>
+    <img src="b1.png" alt="im" height="40px" width="100px">
+  </div>
+</div> 
+<div class="h">
+  <div class="h1"></div>
+   <div class="h2">
+    <p style="color: rgb(68, 65, 65);">Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+    <div class="h3">
+      <h3>Tim Smith</h3>
+    </div>
+    <div class="h4">
+      <p style="color: rgb(123, 120, 120)";>British dragon boat racing association</p>
+    </div>
+    <div class="h5">
+      <div class="h6"><img src="l1.png" alt="" height="30px" width="30px"></div>
+      <div class="h6"><img src="Logo (1).png" alt=""  height="40px" width="40px"></div>
+      <div class="h6"><img src="Logo (2).png" alt=""  height="40px" width="40px"></div>
+      <div class="h6"><img src="Logo (3).png" alt=""  height="40px" width="40px"></div>
+      <div class="h6"><img src="Logo (4).png" alt=""  height="40px" width="40px"></div>
+      <div class="h6"><img src="Logo (5).png" alt=""  height="40px" width="40px"></div>
+      <div class="h6"><img src="meet.png" alt=""  height="40px" width="80px"></div>
+    </div>
+</div>
+</div>
+<div class="i">
+  <div class="i1">
+    <h1 class="i2">Caring is the new marketing</h1>
+    <p class="i3">The Nextcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+  </div> 
+  <div class="i4">
+    <div class="i5">
+      <img src="person1.png" height="300px" width="300px">
+      <h2 style="color: rgb(108, 105, 105);">Creating Streamlined<br>Safeguarding processes with<br> Oneren</h2>
+      <p style="color: forestgreen;">Readmore  →</p>
+  </div>
+  <div class="i5">
+    <img src="p2.png"  height="300px" width="300px">
+    <h2 style="color: rgb(108, 105, 105);">What are your Safeguarding <br>responsibilities and how can<br> you Manage them?</h2>
+    <p style="color: forestgreen;">Readmore  →</p>
+</div>
+<div class="i5">
+  <img src="p3.png" height="300px" width="300px">
+  <h2 style="color: rgb(108, 105, 105);">Revamping the membership<br> Model with Triathlon <br>Australia</h2>
+  <p style="color: forestgreen;">Readmore  →</p>
+</div>
+  </div>
+</div>  
+<div class="j">
+  <h1>Pellentesque suscipit<br>fringilla libero eu.</h1>
+  <button class="bot"> Get a Demo → </button>
+</div>
+<div class="k">
+  <div class="k1">
+    <div class="k2">
+      <div class="k7">
+       <img src="Logo.png">
+      </div>
+    </div>
+    <div class="k8">
+    <p>Copyright © 2020 Nexcenst ltd.</p>
+    <p>All rights reserved</p>  
+    </div>
+    <div class="k9">
+      <div class="k10"><img src="insta.png" alt="" height="35px" width="35px"></div>
+      <div class="k10"><img src="l2.png" alt=""  height="35px" width="35px"></div>
+      <div class="k10"><img src="tw.png" alt=""  height="35px" width="35px"></div>
+      <div class="k10"><img src="youtube.png" alt=""  height="35px" width="35px"></div> 
+  </div>
+  </div>
+  <div class="k3">
+    <div class="k11">
+      <h2>Company</h2>
+    </div>
+    <div class="k12">About us</div>
+    <div class="k12">Blog</div>
+    <div class="k12">Contact us</div>
+    <div class="k12">Pricing</div>
+    <div class="k12">Testimonials</div>
+  </div>
+  <div class="k4">
+    <div class="k13">
+      <h2>Support</h2>
+    </div>
+    <div class="k14">Help Center</div>
+    <div class="k14">Terms of service</div>
+    <div class="k14">Legal</div>
+    <div class="k14">Privacy Policy</div>
+    <div class="k14">Status</div>
+  </div>
+  <div class="k5">
+    <div class="k16">
+    <h2>Stay up to date</h2>
+  </div>
+  <div class="k17">
+    <p>Your email address         ✉</p>
+  </div>
+  </div>
+  </div>
+</body>
+</html>
+
+      
